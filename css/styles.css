@@ -43,7 +43,7 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+
   color: #757575;
 }
 .nav-contacts-link:hover,
@@ -83,4 +83,63 @@ h1 {
 .hero-btm:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+.features {
+}
+.features-item {
+}
+.features-item-h {
+  ont-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.features-item-p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.activitys,
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-item-h {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-item-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16) 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/*--------------footer---------------*/
+footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: #ffffff;
 }
