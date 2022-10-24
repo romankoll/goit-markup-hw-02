@@ -62,7 +62,7 @@ body {
 .hero {
   background-color: #2f303a;
 }
-h1 {
+.hero-text {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -135,7 +135,7 @@ h1 {
 }
 /*--------------MAIN---------------*/
 /*--------------footer---------------*/
-footer {
+.footer {
   background-color: #2f303a;
 }
 
@@ -156,6 +156,7 @@ footer {
   color: var(--link-focus-color);
 }
 .footer-contacts-link {
+  font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
